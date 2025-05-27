@@ -6,7 +6,7 @@
 namespace: muratcabuk
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: murat-dotfiles
+name: murat_dotfiles
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 1.0.0
@@ -44,13 +44,13 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/muratcabuk/murat-dotfiles
+repository: https://github.com/muratcabuk/murat_dotfiles
 
 # The URL to any online docs
-documentation: https://github.com/muratcabuk/murat-dotfiles/README.md
+documentation: https://github.com/muratcabuk/murat_dotfiles/README.md
 
 # The URL to the homepage of the collection/project
-homepage: https://github.com/muratcabuk/murat-dotfiles
+homepage: https://github.com/muratcabuk/murat_dotfiles
 
 # The URL to the collection issue tracker
 issues: https://github.com/muratcabuk/murat-dotfiles/issues
