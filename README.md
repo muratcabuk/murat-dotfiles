@@ -17,9 +17,9 @@ cd $HOME/murat-dotfiles
 
 ansible-galaxy collection build --force
 
-ansible-galaxy collection install my_namespace-my_machines-1.0.0.tar.gz --force
+ansible-galaxy collection install murat-dotfiles/muratcabuk-murat-dotfiles-1.0.0.tar.gz --force
 
-cd /home/vagrant/.ansible/collections/ansible_collections/my_namespace/my_machines/
+cd /home/vagrant/.ansible/collections/ansible_collections/muratcabuk/murat-dotfiles/
 
 ansible-playbook -i inventory.yml my_machine_playbook.yml  --limit ubuntu_hosts -e "target_distribution=Ubuntu"
 
